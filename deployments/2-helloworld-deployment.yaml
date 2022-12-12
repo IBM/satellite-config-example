@@ -34,6 +34,6 @@ spec:
         runAsGroup: 101
         fsGroup: 101
       containers:
-        - image: icr.io/satellite-config/helloworld
+        - image: icr.io/satellite-config/helloworld:gitops
           name: helloworld-app
           imagePullPolicy: Always
